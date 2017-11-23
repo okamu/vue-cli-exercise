@@ -2,13 +2,19 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <button-material></button-material>
   </div>
 </template>
 
 <script>
+import Button from './components/Button.vue'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'button-material': Button
+  }
 }
+
 </script>
 
 <style>
