@@ -7,6 +7,7 @@
 </template>
 
 <script>
+//comment追加
 import Button from './components/Button.vue'
 export default {
   name: 'app',
