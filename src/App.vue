@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <hello></hello>
     <button-material></button-material>
   </div>
 </template>
 
 <script>
 //comment追加
-import Button from './components/Button.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
+import Button from '@/components/Button.vue'
 export default {
   name: 'app',
   components: {
+    'hello': HelloWorld,
     'button-material': Button
   }
 }
