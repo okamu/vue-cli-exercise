@@ -26,26 +26,14 @@
   </div>
 </template>
 
-<<<<<<< HEAD
-<script>
-export default {
-  name: 'RegularButtons'
-}
-</script>
-
-=======
->>>>>>> Button.vue追加
 <style lang="scss" scoped>
   small {
     display: block;
   }
 </style>
-<<<<<<< HEAD
-=======
 
 <script>
 export default {
   name: 'RegularButtons'
 }
 </script>
->>>>>>> Button.vue追加
